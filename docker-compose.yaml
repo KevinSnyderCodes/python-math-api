@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  api:
+    image: python-math-api
+    build:
+      context: .
+    ports:
+      - 8080:8080
